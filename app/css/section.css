@@ -1,0 +1,43 @@
+.section__title {
+  color: #662D8C;
+  height: calc(100vh);
+  min-height: 600px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 7em;
+  color: white; }
+  .section__title-2 {
+    background-image: linear-gradient(45deg, #D74177, #FFE98A); }
+  .section__title-1 {
+    background-image: linear-gradient(45deg, #FCA5F1, #B5FFFF); }
+  .section__title-6 {
+    background-image: linear-gradient(45deg, #B066FE, #63E2FF); }
+  .section__title-3 {
+    background-image: linear-gradient(45deg, #8E78FF, #FC7D7B); }
+  .section__title-5 {
+    background-image: linear-gradient(45deg, #D585FF, #00FFEE); }
+  .section__title-4 {
+    background-image: linear-gradient(45deg, #00FFA1, #00FFFF); }
+  .section__title-7 {
+    background-image: linear-gradient(45deg, #93278F, #00A99D); }
+
+.section__link {
+  outline: none;
+  text-decoration: none;
+  transition: color .7s; }
+  .section__link:hover {
+    color: rgba(255, 255, 255, 0.3); }
+
+@media all and (max-width: 560px) {
+  .section__title {
+    font-size: 5em; } }
